@@ -1,0 +1,47 @@
+.header{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+
+}
+
+.imgHeader{
+    width: 290px;
+    height: 160px;
+    margin-left: 20px;
+}
+
+.sobre{
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backImg{
+    width: 100%;
+    height: 110%;
+}
+
+.end{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+
+.imgend{
+    width: 400px;
+    height: 320px;
+    margin-left: 50px;
+}
