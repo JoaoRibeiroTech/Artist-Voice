@@ -17,7 +17,6 @@
     width: 280px;
     height: 165px;
     margin-left: 30px;
-    cursor: pointer;
     display: block;
     max-width: 100%;
     height: auto;
@@ -26,7 +25,7 @@
 .btn-home{
     color: royalblue;
     background-color: black;
-    margin-left: 260px;
+    margin-left: 18%;
     border: 0;
     font-size: 25px;
     cursor: pointer;
@@ -36,7 +35,7 @@
 .btn-categoria{
     color: royalblue;
     background-color: black;
-    margin-left: 78px;
+    margin-left: 7%;
     border: 0;
     font-size: 25px;
     cursor: pointer;
@@ -45,7 +44,7 @@
 .btn-topart{
     color: royalblue;
     background-color: black;
-    margin-left: 78px;
+    margin-left: 7%;
     border: 0;
     font-size: 25px;
     cursor: pointer;
@@ -69,10 +68,9 @@
 
 #backImg{
     width: 100%;
-    height: 1200px;
+    height: 1450px;
     display: block;
     max-width: 100%;
-    height: 1400px;
 }
 
 #title{
@@ -83,6 +81,16 @@
     font-size: 22px;
 }
 
+#cardZe{
+    position: absolute;
+    width: 320px;
+    height: 38%;
+    background-color: black;
+    border-radius: 20px;
+    top: 170px;
+    left: 170px;
+}
+
 #zeneto{
     width: 100%;
     height: 300px;
@@ -90,18 +98,58 @@
     object-fit: cover;
 }
 
-#card{
+#cardLinkin{
     position: absolute;
-    width: 300px;
-    height: 36.3%;
+    width: 320px;
+    height: 38%;
     background-color: black;
     border-radius: 20px;
     top: 170px;
-    left: 170px;
+    left: 30%;
+}
+
+#LinkinPark{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#cardHariel{
+    position: absolute;
+    width: 320px;
+    height: 38%;
+    background-color: black;
+    border-radius: 20px;
+    top: 170px;
+    left: 50%;
+}
+
+#Hariel{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#cardMenosMais{
+    position: absolute;
+    width: 320px;
+    height: 38%;
+    background-color: black;
+    border-radius: 20px;
+    top: 170px;
+    left: 70%;
+}
+#MenosMais{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
 }
 
 .info{
-    padding: 0px;
+    padding: 1px;
     color: white;
     margin-left: 10px;
 }
@@ -134,13 +182,13 @@
     cursor: pointer;
 }
 
-.end{
+#end{
     background-color: black;
     width: 100%;
     height: 200px;
 }
 
-.imgend{
+#imgend{
     width: 300px;
     height: 200px;
     margin-left: 50px;
