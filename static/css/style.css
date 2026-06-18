@@ -216,6 +216,42 @@
     object-fit: cover;
 }
 
+.lista-comentarios{
+    margin-top: 12px;
+    max-height: 140px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+.comentario-item{
+    background-color: royalblue;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: white;
+}
+
+.comentario-item .comentario-autor{
+    color: royalblue;
+    font-weight: bold;
+}
+
+.comentario-item .btn-denunciar{
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 4px;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.comentario-item .btn-denunciar:hover{
+    color: royalblue;
+}
+
 .info{
     padding: 1px;
     color: white;
